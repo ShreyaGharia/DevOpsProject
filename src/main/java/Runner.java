@@ -10,11 +10,11 @@ import java.util.HashMap;
  */
 @SpringBootApplication
 public class Runner {
-  //  public static HashMap<String,Employee> hmEmployee;
+    public static HashMap<String,Employee> hmEmployee;
     public static void main(String[] args) {
-      //  hmEmployee =new HashMap<String,Employee>();
-       // Employee employeeOne= new Employee("1","Shreya","Gharia");
-       // hmEmployee.put(employeeOne.getEmployeeId(),employeeOne);
+        hmEmployee =new HashMap<String,Employee>();
+        Employee employeeOne= new Employee("1","Shreya","Gharia");
+        hmEmployee.put(employeeOne.getEmployeeId(),employeeOne);
         SpringApplication.run(Runner.class, args);
 
     }

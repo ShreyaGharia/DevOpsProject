@@ -7,7 +7,7 @@ import java.util.HashMap;
 /**
  * Created by Porwal Brother on 7/12/2017.
  */
-/*@RestController
+@RestController
 @RequestMapping(value="/test")
 public class Controller {
 
@@ -16,4 +16,4 @@ public class Controller {
             return Runner.hmEmployee;
         }
 
-}*/
+}
